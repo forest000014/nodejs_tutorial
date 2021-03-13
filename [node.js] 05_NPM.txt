@@ -1,0 +1,16 @@
+ㅇ what is NPM?
+  package manager for Node.js packages, or modules
+
+
+ㅇ what is a package?
+  A package in Node.js contains all the files you need for a module.
+
+
+ㅇ how to download a package
+  [TERMINAL] npm install PACKAGE_NAME
+
+
+ㅇ how to use(include) a package
+  var packageVariable = require('PACKAGE_NAME')    // the same way I include a module
+
+

@@ -1,0 +1,23 @@
+ㅇ fs.appendFile(PATH, DATA, CALLBACK(err){})
+  If PATH exists, appends DATA to it.
+  O/W, makes a new file at PATH with DATA.
+
+
+ㅇ fs.open(PATH, FLAGs)
+  open을 'w' 플래그로 한 다음에는 뭘 해줘야 하지?
+    c언어로 치면 freopen(PATH, "w", stdout); 을 해준 뒤에, printf()를 통해 내용을 쓰는데.
+    여기에서도 printf()에 해당하는 무언가가 있어야 하지 않나? console.log()를 쓰는 건가?
+    -> write() 메소드를 이용해서 데이터를 쓸 수 있다. 파일에 데이터를 쓰고 나면 close() 메소드를 호출하여 파일을 닫는다.
+  'w'
+    내용이 존재하면, 지우고 처음부터 씀
+
+   node.js의 개발자가 지독한 유닉스 개발자라고 함. 디버깅 모듈이 콘솔로 된 것만 봐도 알 수 있다고.
+
+
+ㅇ fs.writeFile()
+  파일이 존재하면, 지우고 처음부터 씀.
+  없다면, 새 파일을 만들어서 씀.
+
+  
+
+

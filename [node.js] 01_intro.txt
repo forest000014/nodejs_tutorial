@@ -1,0 +1,25 @@
+ㅇ Why node.js?
+  single-threaded, non-blocking, asynchronously programming -> very memory efficient
+
+
+ㅇ terminal 명령어
+  pwd (print working directory)
+  ls (list segments)
+  cd (change directory)
+    cd ..
+
+
+ㅇ REPL? terminal? 종료 명령어 : ctrl + C
+
+
+ㅇ VSCode 자동 정렬
+  command + A, command + K + F  
+
+
+ㅇ console.log('stringstring');
+  REPL에 출력
+
+
+ㅇ module in js
+  ~ js library
+

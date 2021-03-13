@@ -1,0 +1,12 @@
+ㅇ url.parse()
+  var q = url.parse(adr, true) // adr을 본문의 예제에서는 주소를 string으로 하드코딩했으나, 
+                                  서버에 들어오는 요청에서는, http.createServer에서 req의 req.url에 담겨있음.
+  q.host
+  q.pathname
+  q.search
+
+  var qData = q.query;
+  qData.year... qData.month...
+
+
+

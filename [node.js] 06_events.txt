@@ -1,0 +1,11 @@
+ㅇ events in Node.js
+  Every action on a computer is an event.
+  (When a connection is made or a file is opened.)
+
+ㅇ events module
+  eventEmitter = new events.eventEmitter();
+  eventEmitter.on('EVENT_NAME', EVENT_HANDLER_FUNC);
+    // assigns an event handler function to an event
+  eventEmitter.emit
+    // fires an event
+
